@@ -1031,6 +1031,30 @@ footer h1 {
         width: 100%;
     }
 
+    .info-section {
+        width: 90%;
+    }
+
+    .info-cards .card h1 {
+        font-size: 1rem;
+        top: 55%;
+    }
+
+    .card-globe .card-title {
+        font-size: 1rem;
+        margin-top: 25%;
+    }
+
+    .card-globe .card-text {
+        font-size: 1rem;
+        margin-top: 30%;
+    }
+
+    .info-cards .card p {
+        font-size: 0.9rem;
+        top: 60%;
+    }
+
     .my-projects {
         top: -50px;
         margin-bottom: 700px;
