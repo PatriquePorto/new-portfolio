@@ -16,7 +16,7 @@
             <header>
                <div class="left">
                    <img class="logo" src="/assets/images/miladicode.png" alt="logo">
-                   <h1><span style="color: #72a1de;">Patrique-</span>Dev</h1>
+                   <h1><span style="color: #72a1de;">My-</span>Portfolio</h1>
                </div>
 
                <ul>
@@ -27,11 +27,32 @@
                </ul>
 
                <div class="box-icons">
-                   <a href="#"><i class="bx bxl-youtube"></i></a>
+                   <a href="#"><i class="bx bxl-instagram"></i></a>
                    <a href="#"><i class="bx bxl-github"></i></a>
                    <a href="#"><i class="bx bxl-linkedin-square"></i></a>
                </div>
+
+               <div class="menu-icon"><i class="bx bx-menu"></i></div>
            </header>
+
+                <div class="siderbar">
+                    <div class="close-icon">
+                            <i class="bx bx-x"></i>
+                    </div>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-github"></i></a>
+                        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                    </div>
+                </div>
 
            <div class="blackhole-box">
                <video class="blackhole" loop autoplay muted plays-inline src="./assets/videos/blackhole.mp4" type="video/mp4"></video>
@@ -39,7 +60,7 @@
 
            <!-- Hero Section -->
            <section class="hero">
-                 <div class="hero-info">
+                 <div class="hero-info autoBlur">
                      <div class="hero-info-title">
                         <i class="bx bxl-sketch"></i>
                         Front-End Developer Portfolio
@@ -53,14 +74,15 @@
                  </div>
 
                  <div class="hero-video-box">
-                     <video class="hero-video" loop autoplay muted plays-inline src="./assets/videos/hero-video.mp4" type="video/mp4"></video>
+                     <video class="hero-video autoBlur" loop autoplay muted plays-inline src="./assets/videos/hero-video.mp4" type="video/mp4"></video>
                  </div>
 
                  <div class="scroll-down"></div>
            </section> 
+
           <!-- Info Section -->
            <section class="info-section">
-                <h1 class="section-title">Hello, There 👋 </h1>
+                <h1 class="section-title autoDisplay">Hello, There 👋 </h1>
                 <div class="info-cards">
                     <div class="card">
                         <h1>Hi there, I'm Patrique</h1>
@@ -75,7 +97,7 @@
                     </div>
 
                     <div class="card">
-                        <h1>I'm very flexible with time zone communications & locations</h1>
+                        <h1 class="card-title">I'm very flexible with time zone communications & locations</h1>
                         <p>I'm based in Brazil, bari and open to remote work from anywhere in the world</p>
                         <video loop autoplay muted plays-inline src="./assets/videos/glob.mp4" type="video/mp4"></video>
 
@@ -92,13 +114,13 @@
 
            <!-- My Projects Section -->
            <section class="my-projects">
-                 <h1 class="section-title">My Projects 🧑‍💻</h1>
+                 <h1 class="section-title autoDisplay">My Projects 🧑‍💻</h1>
                     <div class="project-card">
-                        <div class="project-videobox">
+                        <div class="project-videobox autoBlur">
                               <video id="projectVideo1" src="./assets/videos/project1.mp4" type="video/mp4"></video>
                               <div class="hover-sign"></div>
                         </div>
-                        <div class="project-info">
+                        <div class="project-info fadeInRight">
                             <h1>Animated <span class="gradient">Gaming</span> Website</h1>
                             <p> A responsive website for a gaming company with an animated design and smooth user experience. Web page development with HTML, CSS and JavaScript. </p>
                             <button class="bx bx-link-external">View Project</button>
@@ -106,31 +128,32 @@
                     </div> 
                     
                     <div class="project-card">
-                        <div class="project-videobox">
+                        <div class="project-videobox autoBlur">
                               <video id="projectVideo2" src="./assets/videos/project2.mp4" type="video/mp4"></video>
                         </div>
-                        <div class="project-info">
+                        <div class="project-info fadeInRight">
                             <h1>Modern <span class="gradient">Portfolio</span> Website  </h1>
-                            <p> A responsive website for a gaming company with an animated design and smooth user experience. Web page development with HTML, CSS and JavaScript. </p>
+                            <p> A portfolio website with an animated design and smooth user experience. Web page development with HTML, CSS and JavaScript. </p>
                             <button class="bx bx-link-external">View Project</button>
                         </div>
                     </div>  
                     
                     <div class="project-card">
-                        <div class="project-videobox">
+                        <div class="project-videobox autoBlur">
                               <video id="projectVideo3" src="./assets/videos/project3.mp4"  type="video/mp4"></video>
                         </div>
-                        <div class="project-info">
+                        <div class="project-info fadeInRight">
                             <h1>Movie <span class="gradient">Landing</span> Page</h1>
-                            <p> A responsive website for a gaming company with an animated design and smooth user experience. Web page development with HTML, CSS and JavaScript. </p>
+                            <p> A movie landing page with an animated design and smooth user experience. Web page development with HTML, CSS and JavaScript. </p>
                             <button class="bx bx-link-external">View Project</button>
                         </div>
                     </div>   
                                    
             </section>
+
             <!-- Skills Section -->
             <section class="skills-section">
-                <h1 class="section-title">
+                <h1 class="section-title autoDisplay">
                     My Skills 🛠️
                 </h1>
 
@@ -138,21 +161,21 @@
                     <img class="skills-img" src="./assets/images/digital brain.png" alt="digital-brain">
                 
 
-                    <div class="designer">
-                        <h1 class="gradient">Designer <i class="bx bx-laptop"></i></h1>
-                        <p>I have expertise in HTML5, CSS3, JavaScript, and design tools like Figma. I can create responsive and visually appealing websites that meet user needs. 
+                    <div class="designer autoDisplay">
+                        <h1 class="gradient design-title">Designer <i class="bx bx-laptop"></i></h1>
+                        <p>I have expertise in HTML5, CSS3, JavaScript, and design tools like Figma and Photoshop. I can create responsive and visually appealing websites that meet user needs. 
                         </p>
                     </div>
 
-                    <div class="coder">
-                        <h1 class="gradient">Coder <i class="bx bx-code-block"></i></h1>
-                        <p>I'm skilled in HTML5, CSS3, JavaScript, and frameworks/Libs like ReactJs, NextJs, NodeJs, and ExpressJs. I also have experience with backend development and database management with PostgresSQL and MySQL. </p>
+                    <div class="coder autoDisplay">
+                        <h1 class="gradient coder-title">Coder <i class="bx bx-code-block"></i></h1>
+                        <p>I'm skilled in HTML5, CSS3, JavaScript, and frameworks/libs like ReactJs, NextJs, NodeJs, ExpressJs and TailwindCSS. I also have experience with backend development and database management with PostgresSQL and MySQL. </p>
                     </div>
 
                     <div class="slider" reverse="true" style="
-                      --width: 100px;
-                      --height: 100px;
-                      --quantity: 9;
+                      --width: 130px;
+                      --height: 130px;
+                      --quantity: 10;
                     ">
                       <div class="list">
                          <div class="item" style="--position: 1">
@@ -168,7 +191,7 @@
                          </div>
 
                          <div class="item" style="--position: 4">
-                            <img src="./assets/images/react.png" alt="slider-image">
+                            <img src="./assets/images/react.svg" alt="slider-image">
                          </div>
 
                          <div class="item" style="--position: 5">
@@ -176,20 +199,25 @@
                          </div>
 
                          <div class="item" style="--position: 6">
-                            <img src="./assets/images/tailwindcss.png" alt="slider-image">
+                            <img src="./assets/images/tailwindcss2.svg" alt="slider-image">
                          </div>
 
-                         <div class="item" style="--position: 7">
-                            <img src="./assets/images/figma.png" alt="slider-image">
+                         <div class="item figma" style="--position: 7">
+                            <img src="./assets/images/figma2.svg" alt="slider-image">
                          </div>
 
                          <div class="item" style="--position: 8">
-                            <img src="./assets/images/github.png" alt="slider-image">
+                            <img src="./assets/images/photoshop.png" alt="slider-image">
                          </div>
 
                          <div class="item" style="--position: 9">
-                            <img src="./assets/images/git.png" alt="slider-image">
+                            <img src="./assets/images/git.svg" alt="slider-image">
                          </div>
+
+                         <div class="item" style="--position: 10">
+                            <img src="./assets/images/github.svg" alt="slider-image">
+                         </div>
+                  
                       </div>
 
                     </div>
@@ -199,25 +227,40 @@
 
             <!-- Contact Section -->
             <section class="contact-section">
-                <h1 class="section-title">
-                    Get In Touch 📞
-                </h1>
-                <p></p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="bx bx-map"></i>
-                        <p>123456789</p>
+                <h1 class="section-title autoDisplay">Get In Touch 📞</h1>
+              
+                <div class="social-box autoBlur">  
+                    <a href="#"><i class="bx bx-mobile">+5573999330365</i></a>              
+                    <a href="#"><i class="bx bxl-telegram">Contact Example.com</i></a>
+                    <a href="#"><i class="bx bxl-linkedin-square">Contact Example.com</i></a>
+                   
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-github"></i></a>
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
                     </div>
-                    <div class="contact-item">
-                        <i class="bx bx-phone"></i>
-                        <p>123456789</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="bx bx-envelope"></i>
-                        <p>123456789</p>
-                    </div>
+    
+                
+                </div>
+
+                
+                <div class="contact-box autoBlur">
+                    <p>Whether you're looking to build a new website, improve your existing platform, or bring a unique project file, I'm here to help.</p>
+                     <p>Full Name</p>
+                     <input type="text" placeholder="Your name">
+                     <p>Email Address</p>
+                     <input type="email" placeholder="Your email">
+                     <p>Your Message</p>
+                     <input type="text" placeholder="Share your thoughts...">
+
+                     <button><i class="bx bx-send"></i> Send your message</button>
                 </div>
             </section>
+
+            <!-- Footer -->
+            <footer>
+                <h1>© 2025 Patrique Porto. All rights reserved.</h1>
+            </footer>
         </div>
     
         
